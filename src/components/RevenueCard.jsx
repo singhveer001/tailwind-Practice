@@ -24,7 +24,7 @@ export const RevenueCard = ({
                 <div className="font-semibold text-2xl">
                 ₹ {amount}
                 </div>
-                {orderCount ? <div className="flex cursor-pointer underline font-medium flex flex-col justify-center">
+                {orderCount ? <div className="flex cursor-pointer underline font-medium  flex-col justify-center">
                     <div className="flex">
                         <div className= {`${isFirstCard ? ' text-white'  : 'text-blue-800'} `}>
                                 {orderCount} orders
